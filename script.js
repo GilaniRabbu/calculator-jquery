@@ -2,7 +2,6 @@ var ResultField = $("#result");
 
 function insertNum(number) {
     var existNum = ResultField.val();
-
     ResultField.val(existNum + number);
 }
 
